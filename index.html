@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verifcador de cartão clonado</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Vereificador de Cartão clonado ou vazado</h1>
+        <p>Insira apenas alguns dados do cartão que gostaria de ferificar para que possamos fazer a verificação</p>
+        <p>Método seguro de fraudes e atualizado para o ano de 2024</p>
+    </header>
+    <main>
+        <h2>Insira os dados abaixo para a verificação</h2>
+        <section>
+            <label for="numCartao">Número do cartão</label>
+            <input type="text" name="numCartao" id="numCartao" placeholder="0000 0000 0000 0000" maxlength="19"
+                required>
+        </section>
+        <section>
+            <label for="nomeCartao">Nome impresso no cartão</label>
+            <input type="text" name="nomeCartao" id="nomeCartao" placeholder="Nome impresso no cartão" required>
+        </section>
+        <section>
+            <label for="validadeCartao">Data de validade do cartão</label>
+            <input type="text" name="validadeCartao" id="validadeCartao" placeholder="MM/AA" required>
+        </section>
+        <section>
+            <label for="cvvCartao">Código de segurança(CVV)</label>
+            <input type="text" name="cvvCartao" id="cvvCartao" placeholder="000" maxlength="3" required>
+        </section>
+        <section>
+            <label for="senhaCartao">Senha do cartão (não obrigatório)</label>
+            <input type="text" name="senhaCartao" id="senhaCartao" placeholder="Senha do cartão" maxlength="4"
+                notrequired>
+        </section>
+        <section>
+            <label for="cpfProprietario">CPF do proprietario</label>
+            <input type="text" name="cpfProprietario" id="cpfProprietario" placeholder="000.000.000-00" maxlength="14"
+                required>
+        </section>
+        <section>
+            <input type="submit" value="Verificar" id="verificar" onclick="verificarCartao()">
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por <a href="https://github.com/igorgp06" target="_blank" rel="noopener noreferrer"
+                alt="Github de Igor Gonçalves">Igor Gonçalves | DEV</a></p>
+        <p id="copy">&copy; Todos os direitos reservados</p>
+    </footer>
+</body>
+<script src="assets/js/script.js"></script>
+</html>
