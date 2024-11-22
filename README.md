@@ -68,5 +68,5 @@ Igor Gonçalves Pinheiro ou [igorgp06](https://github.com/igorgp06)
 
    <img src="https://img.shields.io/github/watchers/igorgp06/VerificadorDeCartaoClonado?style=for-the-badge&color=%230C2EE8" height="23" alt="watchers"/>
 
-   <img src="https://img.shields.io/github/license/igorgp06/VerificadorDeCartaoClonado?style=for-the-badge&color=%25230C2EE8" height="23" alt=" apache license"/>
+   <img src="https://img.shields.io/github/license/igorgp06/VerificadorDeCartaoClonado?style=for-the-badge" height="23" alt=" apache license"/>
 </div>
