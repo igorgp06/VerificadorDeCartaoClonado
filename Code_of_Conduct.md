@@ -1,4 +1,4 @@
-The cartaoclonado project follows the Apache code of conduct.
+The VerificadorDeCartaoClonado project follows the Apache code of conduct.
 
 If you observe behavior that violates those rules please follow the ASF reporting guidelines.
 

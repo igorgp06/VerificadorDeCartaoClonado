@@ -1,4 +1,4 @@
-# Site para Kvefiricar cartões clonados   
+# Site para verificação de cartões clonados   
 
 #### Um site simples com o intuito de fazer apenas uma brincadeira! Nenhum dado real está sendo coletado!    
 
@@ -27,16 +27,16 @@ Um site simples com o intuito de fazer apenas uma brincadeira! Nenhum dado real 
 # Onde encontrar o projeto   
 
 - Site:   
-    O site referente ao projeto pode ser encontrado no GitHub Pages através deste link: [Site referente ao projeto](https://igorgp06.github.io/cartaoclonado/).  
+    O site referente ao projeto pode ser encontrado no GitHub Pages através deste link: [Site referente ao projeto](#).  
 
 - Código e documentação:   
-    A documentação do projeto pode ser encontrada no GitHub: [Código e documentação](https://github.com/igorgp06/cartaoclonado).   
+    A documentação do projeto pode ser encontrada no GitHub: [Código e documentação](https://github.com/igorgp06/VerificadorDeCartaoClonado).   
 
 ## Contribuindo
-Contribuições são sempre bem-vindas! Sinta-se a vontade para relatar bugs, sugestões e melhorias no [issues](https://github.com/igorgp06/cartaoclonado/issues).  
-Correção de bugs e novas funcionalidades também são sempre muito bem vindas, crie um `pull request` [aqui](https://github.com/igorgp06/cartaoclonado/pulls) e ajude-me com suas melhorias e correções.
+Contribuições são sempre bem-vindas! Sinta-se a vontade para relatar bugs, sugestões e melhorias no [issues](https://github.com/igorgp06/VerificadorDeCartaoClonado/issues).  
+Correção de bugs e novas funcionalidades também são sempre muito bem vindas, crie um `pull request` [aqui](https://github.com/igorgp06/VerificadorDeCartaoClonado/pulls) e ajude-me com suas melhorias e correções.
 ## Licença e Código de Conduta
-O projeto [cartaoclonado](https://github.com/igorgp06/cartaoclonado) está sujeito a licença [APACHE LICENSE 2.0](https://www.apache.org/licenses/LICENSE-2.0).  
+O projeto [VerificadorDeCartaoClonado](https://github.com/igorgp06/cartaoclonado) está sujeito a licença [APACHE LICENSE 2.0](https://www.apache.org/licenses/LICENSE-2.0).  
 
 Por favor, siga o `NOTICE`, `CODE OF CONDUCT` e leia a `LICENSE` desse projeto para evitar incomodações futuras.  
 
@@ -60,13 +60,13 @@ Igor Gonçalves Pinheiro ou [igorgp06](https://github.com/igorgp06)
 ## Repository Status   
 
 <div align="left">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/igorgp06/cartaoclonado?style=for-the-badge&color=%23FFED00" height="23">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/igorgp06/VerificadorDeCartaoClonado?style=for-the-badge&color=%23FFED00" height="23">
 
-   <img src="https://img.shields.io/github/last-commit/igorgp06/cartaoclonado?display_timestamp=author&style=for-the-badge&color=%23FF00D7" height="23" alt="last-commit">
+   <img src="https://img.shields.io/github/last-commit/igorgp06/VerificadorDeCartaoClonado?display_timestamp=author&style=for-the-badge&color=%23FF00D7" height="23" alt="last-commit">
 
-   <img alt="GitHub forks" src="https://img.shields.io/github/forks/igorgp06/cartaoclonado?style=for-the-badge&color=%230C2EE8" height="23"/>
+   <img alt="GitHub forks" src="https://img.shields.io/github/forks/igorgp06/VerificadorDeCartaoClonado?style=for-the-badge&color=%230DFFA2" height="23"/>
 
-   <img src="https://img.shields.io/github/watchers/igorgp06/cartaoclonado?style=for-the-badge&color=%230DFFA2" height="23" alt="watchers"/>
+   <img src="https://img.shields.io/github/watchers/igorgp06/VerificadorDeCartaoClonado?style=for-the-badge&color=%230C2EE8" height="23" alt="watchers"/>
 
-   <img src="https://img.shields.io/github/license/igorgp06/cartaoclonado?style=for-the-badge" height="23" alt=" apache license"/>
+   <img src="https://img.shields.io/github/license/igorgp06/VerificadorDeCartaoClonado?style=for-the-badge&color=%25230C2EE8" height="23" alt=" apache license"/>
 </div>
