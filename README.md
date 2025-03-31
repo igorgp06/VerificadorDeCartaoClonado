@@ -38,14 +38,14 @@ Correção de bugs e novas funcionalidades também são sempre muito bem vindas,
 ## Licença e Código de Conduta
 O projeto [VerificadorDeCartaoClonado](https://github.com/igorgp06/cartaoclonado) está sujeito a licença [APACHE LICENSE 2.0](https://www.apache.org/licenses/LICENSE-2.0).  
 
-Por favor, siga o `NOTICE`, `CODE OF CONDUCT` e leia a `LICENSE` desse projeto para evitar incomodações futuras.  
+Por favor, leia o `NOTICE`, `CODE OF CONDUCT` e a `LICENSE` desse projeto para evitar incomodações futuras.  
 
 ## Contato  
 Para esclarecer dúvidas, mandar sugestões ou até mesmo bater um papo comigo, mande um Email para contateme.igorgp@gmail.com!
 
 ### Desenvolver responsável
 
-Igor Gonçalves Pinheiro ou [igorgp06](https://github.com/igorgp06)
+[Igor Gonçalves | DEV](https://igdeveloper.com.br) ou [igorgp06](https://github.com/igorgp06)
 
 # Redes Sociais
 

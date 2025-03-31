@@ -52,7 +52,7 @@ function verificarCartao() {
         alert("Por favor, preencha todos os campos corretamente.");
         return;
     }
-    alert("Cartão verificado com sucesso!");
+    alert("Cartão verificado com sucesso! Não foi encontrado nenhum vazamento de dados.");
 }
 
 document.addEventListener("DOMContentLoaded", () => {
