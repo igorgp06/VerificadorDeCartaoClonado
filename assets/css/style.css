@@ -7,7 +7,10 @@
 }
 
 body {
-    background-color: rgb(30, 78, 70);
+    background-image: url('/assets/static/img/fundo.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
 }
 
@@ -31,7 +34,7 @@ header p {
 }
 
 main {
-    background-color: rgba(60, 146, 132, 0.507);
+    background-color: rgb(60, 146, 132);
     min-width: 315px;
     max-width: 600px;
     margin: auto;
