@@ -1,58 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Verificador de Cartão</title>
+  <title>Verifcador de cartão clonado</title>
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="shortcut icon" href="assets/static/favicon/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
   <header>
-    <h1>Verificador de Cartão</h1>
-    <p>Insira os dados abaixo para verificar se o cartão está válido.</p>
-    <p><strong>Simulação educacional - 2025</strong></p>
+    <h1>Verificador de cartão clonado ou vazado</h1>
+    <p>Insira apenas alguns dados do cartão que gostaria de verificar para que possamos fazer a validação</p>
+    <p>Método seguro de fraudes e atualizado para o ano de 2025</p>
   </header>
-
   <main>
-    <form id="formCartao" onsubmit="verificarCartao(); return false;">
-      <fieldset>
-        <legend>Dados do Cartão</legend>
-
-        <label for="numCartao">Número do cartão</label>
-        <input type="text" id="numCartao" name="numCartao" placeholder="0000 0000 0000 0000"
-               maxlength="19" pattern="\d{4} \d{4} \d{4} \d{4}" required autocomplete="cc-number">
-
-        <label for="nomeCartao">Nome no cartão</label>
-        <input type="text" id="nomeCartao" name="nomeCartao" placeholder="Nome impresso"
-               required autocomplete="cc-name">
-
-        <label for="validadeCartao">Validade</label>
-        <input type="month" id="validadeCartao" name="validadeCartao" required autocomplete="cc-exp">
-
-        <label for="cvvCartao">Código de segurança (CVV)</label>
-        <input type="password" id="cvvCartao" name="cvvCartao" maxlength="3"
-               pattern="\d{3}" required autocomplete="cc-csc">
-
-        <label for="senhaCartao">Senha do cartão (simulada)</label>
-        <input type="password" id="senhaCartao" name="senhaCartao" maxlength="4"
-               pattern="\d{4}" autocomplete="off">
-
-        <label for="cpfProprietario">CPF do proprietário</label>
-        <input type="text" id="cpfProprietario" name="cpfProprietario" placeholder="000.000.000-00"
-               maxlength="14" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" required autocomplete="off">
-
-        <input type="submit" value="Verificar">
-      </fieldset>
-    </form>
+    <h2>Insira os dados abaixo para a verificação</h2>
+    <section>
+      <label for="numCartao">Número do cartão</label>
+      <input type="text" name="numCartao" id="numCartao" placeholder="0000 0000 0000 0000" maxlength="19" required>
+    </section>
+    <section>
+      <label for="nomeCartao">Nome impresso no cartão</label>
+      <input type="text" name="nomeCartao" id="nomeCartao" placeholder="Nome impresso no cartão" required>
+    </section>
+    <section>
+      <label for="validadeCartao">Data de validade do cartão</label>
+      <input type="text" name="validadeCartao" id="validadeCartao" placeholder="MM/AA" required>
+    </section>
+    <section>
+      <label for="cvvCartao">Código de segurança(CVV)</label>
+      <input type="text" name="cvvCartao" id="cvvCartao" placeholder="000" maxlength="3" required>
+    </section>
+    <section>
+      <label for="senhaCartao">Senha do cartão (não obrigatório)</label>
+      <input type="text" name="senhaCartao" id="senhaCartao" placeholder="Senha do cartão" maxlength="4" notrequired>
+    </section>
+    <section>
+      <label for="cpfProprietario">CPF do proprietario</label>
+      <input type="text" name="cpfProprietario" id="cpfProprietario" placeholder="000.000.000-00" maxlength="14"
+        required>
+    </section>
+    <section>
+      <input type="submit" value="Verificar" id="verificar" onclick="verificarCartao()">
+    </section>
   </main>
 
   <footer class="rodape">
-    <p>Desenvolvido por <a href="https://igdeveloper.com.br" target="_blank" rel="noopener noreferrer">Igor Gonçalves | DEV</a></p>
+    <p>Desenvolvido por <a href="https://igdeveloper.com.br" target="_blank" rel="noopener noreferrer"
+        alt="Github de Igor Gonçalves">Igor Gonçalves | DEV</a></p>
     <p id="copy">&copy; Todos os direitos reservados</p>
   </footer>
-
-  <script src="assets/js/script.js"></script>
 </body>
+<script src="assets/js/script.js"></script>
+
 </html>
