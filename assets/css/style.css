@@ -7,8 +7,10 @@
 }
 
 body {
-    background-color: rgb(30, 78, 70);
-    color: white;
+    background: linear-gradient(to bottom right, #e48b62);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -31,7 +33,7 @@ header p {
 }
 
 main {
-    background-color: rgba(60, 146, 132, 0.507);
+    background-color: rgba(215, 74, 3, 0.511);
     min-width: 315px;
     max-width: 600px;
     margin: auto;
@@ -147,4 +149,16 @@ footer a:hover {
     footer p {
         font-size: 0.8rem;
     }
+}
+.titulo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.barra-hr {
+  width: 60%;
+  height: 3px;
+  background-color: #5a3e36; /* tom terroso escuro */
+  margin: 0 auto 20px auto;
+  border-radius: 3px;
 }
